@@ -138,6 +138,10 @@ module.exports = {
       TAKE_PROFIT_LIMIT: 'TAKE_PROFIT_LIMIT',
       LIMIT_MAKER: 'LIMIT_MAKER',
     },
+    orderSides: {
+      BUY: 'BUY',
+      SELL: 'SELL',
+    },
     rateLimiters: {
       type: {
         REQUESTS: 'REQUESTS',
