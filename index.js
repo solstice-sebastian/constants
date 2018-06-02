@@ -123,10 +123,12 @@ module.exports = {
     },
     orderStatuses: {
       NEW: 'NEW',
+      SUCCESS: 'NEW',
       PARTIALLY_FILLED: 'PARTIALLY_FILLED',
       FILLED: 'FILLED',
       CANCELED: 'CANCELED',
       REJECTED: 'REJECTED',
+      ERROR: 'REJECTED',
       EXPIRED: 'EXPIRED',
     },
     orderTypes: {
