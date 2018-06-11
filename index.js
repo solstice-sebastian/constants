@@ -34,9 +34,10 @@ module.exports = {
     PUT: 'PUT',
   },
 
-  exchanges: {
-    BINANCE: 'BINANCE',
-    GDAX: 'GDAX',
+  exchangeCodes: {
+    BINA: 'binance',
+    GDAX: 'gdax',
+    GMNI: 'GMNI',
   },
 
   gdax: {
