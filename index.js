@@ -9,13 +9,17 @@ module.exports = {
   NO_ORDER: 'No order',
   NO_DASHBOARD_ASSETS: 'No dashboard assets',
   INSUFFICIENT_DATA: 'Insufficient data',
-  SHOULD_EXIT: 'Should exit',
 
   MS_PER_SECOND: 1000,
   MS_PER_MINUTE: 1000 * 60,
   MS_PER_HOUR: 1000 * 60 * 60,
   MS_PER_DAY: 1000 * 60 * 60 * 24,
   MS_PER_WEEK: 1000 * 60 * 60 * 24 * 7,
+
+  instructions: {
+    SHOULD_EXIT: 'Should exit',
+    SHOULD_CONTINUE: 'Should continue',
+  },
 
   botStates: {
     ENTERED: 'ENTERED',
