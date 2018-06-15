@@ -10,6 +10,7 @@ module.exports = {
   NO_DASHBOARD_ASSETS: 'No dashboard assets',
   INSUFFICIENT_DATA: 'Insufficient data',
   CONDITIONS_MET: 'Conditions met',
+  RESET_CONDITIONS_MET: 'Reset conditions met',
 
   TEXT_SECTION_SEPARATOR: '\n\n------------------------------------------------------\n\n',
 
