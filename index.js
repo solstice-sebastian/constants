@@ -10,6 +10,8 @@ module.exports = {
   NO_DASHBOARD_ASSETS: 'No dashboard assets',
   INSUFFICIENT_DATA: 'Insufficient data',
 
+  TEXT_SECTION_SEPARATOR: '\n\n------------------------------------------------------\n\n',
+
   MS_PER_SECOND: 1000,
   MS_PER_MINUTE: 1000 * 60,
   MS_PER_HOUR: 1000 * 60 * 60,
