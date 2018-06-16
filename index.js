@@ -90,7 +90,7 @@ module.exports = {
       GET_SERVER_TIME: '/api/v1/time',
       GET_ACCOUNT_INFO: '/api/v3/account',
       GET_TICKER: '/api/v3/ticker/price',
-      POST_ORDER: '/api/v3/order',
+      POST_ORDER: '/api/v3/order/test',
       GET_ORDER: '/api/v3/order/test',
       DELETE_ORDER: '/api/v3/order/test',
     },
