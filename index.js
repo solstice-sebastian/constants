@@ -183,6 +183,15 @@ module.exports = {
     },
   },
 
+  ws: {
+    readyStates: {
+      CONNECTING:	0,
+      OPEN:	1,
+      CLOSING:	2,
+      CLOSED:	3,
+    },
+  },
+
   TRADE_FEE: 0.001,
   ONE_SHATOSI: 0.00000001,
   ONE_HUNDRED_SHATOSHIS: 0.000001,
