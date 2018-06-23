@@ -9,6 +9,7 @@ module.exports = {
   NO_ORDER: 'No order',
   NO_DASHBOARD_ASSETS: 'No dashboard assets',
   INSUFFICIENT_DATA: 'Insufficient data',
+  INSUFFICIENT_FUNDS: 'Insufficient funds',
   CONDITIONS_MET: 'Conditions met',
   RESET_CONDITIONS_MET: 'Reset conditions met',
 
