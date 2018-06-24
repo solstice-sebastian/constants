@@ -182,6 +182,9 @@ module.exports = {
     endpoints: {
       GET_FAVORITES: '/api/v1/userWatchList',
     },
+    statusCodes: {
+      OVER_REQUEST_LIMIT: 429,
+    },
   },
 
   ws: {
