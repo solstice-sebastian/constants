@@ -36,6 +36,15 @@ module.exports = {
     SELL: 'SELL',
   },
 
+  environments: {
+    PRODUCTION: 'production',
+    LOCAL: 'local',
+    MOCK: 'mock',
+    TEST: 'test',
+    SIMULATION: 'simulation',
+    STAGING: 'staging',
+  },
+
   requestMethods: {
     GET: 'GET',
     POST: 'POST',
@@ -51,10 +60,10 @@ module.exports = {
 
   gdax: {
     // sandbox
-    SANDBOX_HOST: 'https://public.sandbox.gdax.com',
-    API_HOST: 'https://api-public.sandbox.gdax.com',
+    SANDBOX_HOST: 'https://public.sandbox.pro.coinbase.com',
+    API_HOST: 'https://api-public.sandbox.pro.coinbase.com',
     stream: {
-      HOSTNAME: 'ws-feed-public.sandbox.gdax.com',
+      HOSTNAME: 'ws-feed-public.sandbox.pro.coinbase.com',
       CHANNEL_PREFIX: 'wss',
     },
     orderSides: {
@@ -74,7 +83,7 @@ module.exports = {
       ALL: 'all',
     },
     // production
-    // API_HOST: 'https://api.gdax.com',
+    API_HOST: 'https://api.pro.coinbase.com',
   },
 
   binance: {
@@ -91,9 +100,9 @@ module.exports = {
       GET_SERVER_TIME: '/api/v1/time',
       GET_ACCOUNT_INFO: '/api/v3/account',
       GET_TICKER: '/api/v3/ticker/price',
-      POST_ORDER: '/api/v3/order/test',
-      GET_ORDER: '/api/v3/order/test',
-      DELETE_ORDER: '/api/v3/order/test',
+      POST_ORDER: '/api/v3/order',
+      GET_ORDER: '/api/v3/order',
+      DELETE_ORDER: '/api/v3/order',
     },
     intervals: {
       ONE_MINUTE: '1m',
