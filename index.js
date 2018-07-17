@@ -182,8 +182,13 @@ module.exports = {
     filterTypes: {
       PRICE: 'PRICE_FILTER',
       QUANTITY: 'LOT_SIZE',
-      MIN_NOMINAL: 'MIN_NOMINAL',
+      MIN_NOTIONAL: 'MIN_NOTIONAL',
     },
+    newOrderRespTypes: {
+      FULL: 'FULL',
+      ACK: 'ACK',
+      RESULT: 'RESULT',
+    }
   },
 
   coinigy: {
