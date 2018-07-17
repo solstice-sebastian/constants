@@ -99,6 +99,7 @@ module.exports = {
       GET_ALL_ORDERS_FOR_SYMBOL: '/api/v3/allOrders',
       GET_SERVER_TIME: '/api/v1/time',
       GET_ACCOUNT_INFO: '/api/v3/account',
+      GET_ACCOUNT_TRADES_FOR_SYMBOL: '/api/v3/myTrades',
       GET_TICKER: '/api/v3/ticker/price',
       POST_ORDER: '/api/v3/order',
       GET_ORDER: '/api/v3/order',
