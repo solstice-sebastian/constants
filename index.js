@@ -62,6 +62,7 @@ module.exports = {
     // sandbox
     SANDBOX_HOST: 'https://public.sandbox.pro.coinbase.com',
     API_HOST: 'https://api-public.sandbox.pro.coinbase.com',
+    EXCHANGE_CODE: 'GDAX',
     stream: {
       HOSTNAME: 'ws-feed-public.sandbox.pro.coinbase.com',
       CHANNEL_PREFIX: 'wss',
@@ -88,6 +89,7 @@ module.exports = {
 
   binance: {
     API_HOST: 'https://api.binance.com',
+    EXCHANGE_CODE: 'BINA',
     stream: {
       HOSTNAME: 'stream.binance.com',
       PORT: 9443,
@@ -196,6 +198,7 @@ module.exports = {
     API_HOST: 'https://api.coinigy.com',
     endpoints: {
       GET_FAVORITES: '/api/v1/userWatchList',
+      ADD_ALERT: '/api/v1/addAlert',
     },
     statusCodes: {
       OVER_REQUEST_LIMIT: 429,
