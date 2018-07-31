@@ -131,6 +131,7 @@ module.exports = {
       UNAUTHORIZED: 401,
       NOT_FOUND: 404,
       SUCCESS: 200,
+      INSUFFICIENT_FUNDS: -2010,
       // malformed requests are 4XX
       // internal errors are 5XX
     },
