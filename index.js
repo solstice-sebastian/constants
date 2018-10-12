@@ -71,6 +71,10 @@ module.exports = {
       BUY: 'buy',
       SELL: 'sell',
     },
+    orderTypes: {
+      MARKET: 'market',
+      LIMIT: 'limit'
+    },
     liquidity: {
       MAKER: 'M',
       TAKER: 'T',
@@ -82,6 +86,16 @@ module.exports = {
       DONE: 'done',
       SETTLED: 'settled',
       ALL: 'all',
+    },
+    stopTypes: {
+      LOSS: 'loss',
+      ENTRY: 'entry',
+    },
+    timeInForce: {
+      GOOD_TIL_CANCELED: 'GTC',
+      GOOD_TIL_TIME: 'GTT',
+      IMMEDIATE_OR_CANCEL: 'IOC',
+      FILL_OR_KILL: 'FOK'
     },
     // production
     API_HOST: 'https://api.pro.coinbase.com',
