@@ -53,12 +53,12 @@ module.exports = {
   },
 
   exchangeCodes: {
-    BINA: 'binance',
-    GDAX: 'gdax',
+    BINA: 'BINA',
+    GDAX: 'GDAX',
     GMNI: 'GMNI',
   },
 
-  gdax: {
+  GDAX: {
     // sandbox
     SANDBOX_HOST: 'https://public.sandbox.pro.coinbase.com',
     API_HOST: 'https://api-public.sandbox.pro.coinbase.com',
@@ -101,7 +101,7 @@ module.exports = {
     API_HOST: 'https://api.pro.coinbase.com',
   },
 
-  binance: {
+  BINA: {
     API_HOST: 'https://api.binance.com',
     EXCHANGE_CODE: 'BINA',
     stream: {
