@@ -21,6 +21,25 @@ module.exports = {
   MS_PER_DAY: 1000 * 60 * 60 * 24,
   MS_PER_WEEK: 1000 * 60 * 60 * 24 * 7,
 
+  analytics: {
+    COMBINED_ANALYTIC: 'combinedAnalytic',
+    PRICE_SMA: 'priceSma',
+    VOLUME_SMA: 'volumeSma',
+    BTC_VOLUME_SMA: 'btcVolumeSma',
+    THRESHOLD_ANALYTIC: 'thresholdAnalytic',
+    LINKED_ANALYTIC: 'linkedAnalytic',
+  },
+
+  notificationChannels: {
+    LOG: 'log',
+    MAC: 'mac',
+    TEXT: 'text',
+    EMAIL: 'email',
+    DATABASE: 'db',
+    WEBHOOK: 'webhook',
+    WEB_SOCKET: 'ws',
+  },
+
   instructions: {
     SHOULD_EXIT: 'Should exit',
     SHOULD_CONTINUE: 'Should continue',
