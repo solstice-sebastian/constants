@@ -21,7 +21,7 @@ module.exports = {
   MS_PER_DAY: 1000 * 60 * 60 * 24,
   MS_PER_WEEK: 1000 * 60 * 60 * 24 * 7,
 
-  analytics: {
+  analyticTypes: {
     COMBINED_ANALYTIC: 'combinedAnalytic',
     PRICE_SMA: 'priceSma',
     VOLUME_SMA: 'volumeSma',
@@ -30,7 +30,7 @@ module.exports = {
     LINKED_ANALYTIC: 'linkedAnalytic',
   },
 
-  notificationChannels: {
+  notificationChannelTypes: {
     LOG: 'log',
     MAC: 'mac',
     TEXT: 'text',
