@@ -236,13 +236,11 @@ export const COINIGY = {
   },
 };
 
-export const WS = {
-  readyStates: {
-    CONNECTING:	0,
-    OPEN:	1,
-    CLOSING:	2,
-    CLOSED:	3,
-  },
+export enum ReadyStates {
+  CONNECTING =	0,
+  OPEN =	1,
+  CLOSING =	2,
+  CLOSED =	3,
 };
 
 export const TRADE_FEE = 0.001;
