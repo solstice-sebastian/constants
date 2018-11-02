@@ -19,7 +19,7 @@ export const MS_PER_HOUR = 1000 * 60 * 60;
 export const MS_PER_DAY = 1000 * 60 * 60 * 24;
 export const MS_PER_WEEK = 1000 * 60 * 60 * 24 * 7;
 
-export enum analyticTypes {
+export enum AnalyticTypes {
   COMBINED_ANALYTIC = 'combinedAnalytic',
   PRICE_SMA = 'priceSma',
   VOLUME_SMA = 'volumeSma',
@@ -28,7 +28,7 @@ export enum analyticTypes {
   LINKED_ANALYTIC = 'linkedAnalytic',
 }
 
-export enum notificationChannelTypes {
+export enum NotificationChannelTypes {
   LOG = 'log',
   MAC = 'mac',
   TEXT = 'text',
@@ -38,22 +38,22 @@ export enum notificationChannelTypes {
   WEB_SOCKET = 'ws',
 }
 
-export enum instructions {
+export enum Instructions {
   SHOULD_EXIT = 'Should exit',
   SHOULD_CONTINUE = 'Should continue',
 }
 
-export enum botStates {
+export enum BotStates {
   ENTERED = 'ENTERED',
   EXITED = 'EXITED',
 }
 
-export enum orderSides {
+export enum OrderSides {
   BUY = 'BUY',
   SELL = 'SELL',
 }
 
-export enum environments {
+export enum Environments {
   PRODUCTION = 'production',
   LOCAL = 'local',
   MOCK = 'mock',
@@ -62,14 +62,14 @@ export enum environments {
   STAGING = 'staging',
 }
 
-export enum requestMethods {
+export enum RequestMethods {
   GET = 'GET',
   POST = 'POST',
   DELETE = 'DELETE',
   PUT = 'PUT',
 }
 
-export enum exchangeCodes {
+export enum ExchangeCodes {
   BINA = 'BINA',
   GDAX = 'GDAX',
   GMNI = 'GMNI',
@@ -249,4 +249,3 @@ export const TRADE_FEE = 0.001;
 export const ONE_SHATOSI = 0.00000001;
 export const ONE_HUNDRED_SHATOSHIS = 0.000001;
 export const MIN_ASSET_BTC_VALUE = 0.001;
-
