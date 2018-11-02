@@ -19,7 +19,7 @@ export const MS_PER_HOUR = 1000 * 60 * 60;
 export const MS_PER_DAY = 1000 * 60 * 60 * 24;
 export const MS_PER_WEEK = 1000 * 60 * 60 * 24 * 7;
 
-export enum AnalyticTypes {
+export enum AnalyticType {
   COMBINED_ANALYTIC = 'combinedAnalytic',
   PRICE_SMA = 'priceSma',
   VOLUME_SMA = 'volumeSma',
@@ -28,7 +28,7 @@ export enum AnalyticTypes {
   LINKED_ANALYTIC = 'linkedAnalytic',
 }
 
-export enum NotificationChannelTypes {
+export enum NotificationChannelType {
   LOG = 'log',
   MAC = 'mac',
   TEXT = 'text',
@@ -38,22 +38,22 @@ export enum NotificationChannelTypes {
   WEB_SOCKET = 'ws',
 }
 
-export enum Instructions {
+export enum Instruction {
   SHOULD_EXIT = 'Should exit',
   SHOULD_CONTINUE = 'Should continue',
 }
 
-export enum BotStates {
+export enum BotState {
   ENTERED = 'ENTERED',
   EXITED = 'EXITED',
 }
 
-export enum OrderSides {
+export enum OrderSide {
   BUY = 'BUY',
   SELL = 'SELL',
 }
 
-export enum Environments {
+export enum Environment {
   PRODUCTION = 'production',
   LOCAL = 'local',
   MOCK = 'mock',
@@ -62,14 +62,14 @@ export enum Environments {
   STAGING = 'staging',
 }
 
-export enum RequestMethods {
+export enum RequestMethod {
   GET = 'GET',
   POST = 'POST',
   DELETE = 'DELETE',
   PUT = 'PUT',
 }
 
-export enum ExchangeCodes {
+export enum ExchangeCode {
   BINA = 'BINA',
   GDAX = 'GDAX',
   GMNI = 'GMNI',
@@ -236,7 +236,7 @@ export const COINIGY = {
   },
 };
 
-export enum ReadyStates {
+export enum ReadyState {
   CONNECTING =	0,
   OPEN =	1,
   CLOSING =	2,
