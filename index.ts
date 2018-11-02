@@ -1,16 +1,16 @@
 export const DATETIME = 'YYYY-MM-DD HH:mm:ss';
 export const DATETIME_FILENAME = 'YYYYMMDD_HHmmss';
-export const NO_ENTRY = 'No entry';
-export const NO_EXIT = 'No exit';
-export const NO_LIMIT_PRICE = 'No limitPrice';
-export const NO_PRICE = 'No price';
-export const NO_TICKER = 'No ticker';
-export const NO_ORDER = 'No order';
-export const NO_DASHBOARD_ASSETS = 'No dashboard assets';
-export const INSUFFICIENT_DATA = 'Insufficient data';
-export const INSUFFICIENT_FUNDS = 'Insufficient funds';
-export const CONDITIONS_MET = 'Conditions met';
-export const RESET_CONDITIONS_MET = 'Reset conditions met';
+export const NO_ENTRY = 'NO_ENTRY';
+export const NO_EXIT = 'NO_EXIT';
+export const NO_LIMIT_PRICE = 'NO_LIMIT_PRICE';
+export const NO_PRICE = 'NO_PRICE';
+export const NO_TICKER = 'NO_TICKER';
+export const NO_ORDER = 'NO_ORDER';
+export const NO_DASHBOARD_ASSETS = 'NO_DASHBOARD_ASSETS';
+export const INSUFFICIENT_DATA = 'INSUFFICIENT_DATA';
+export const INSUFFICIENT_FUNDS = 'INSUFFICIENT_FUNDS';
+export const CONDITIONS_MET = 'CONDITIONS_MET';
+export const RESET_CONDITIONS_MET = 'RESET_CONDITIONS_MET';
 
 export const TEXT_SECTION_SEPARATOR = '\n\n------------------------------------------------------\n\n';
 export const MS_PER_SECOND = 1000;
