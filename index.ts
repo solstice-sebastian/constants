@@ -75,6 +75,15 @@ export enum ExchangeCode {
   GMNI = 'GMNI',
 }
 
+export enum Action {
+  PING = 'PING',
+  LOG = 'LOG',
+  ENTER = 'ENTER',
+  EXIT = 'EXIT',
+  SLEEP = 'SLEEP',
+  INIT = 'INIT'
+}
+
 export const GDAX = {
   // sandbox
   SANDBOX_HOST: 'https://public.sandbox.pro.coinbase.com',
