@@ -11,6 +11,7 @@ export const INSUFFICIENT_DATA = 'INSUFFICIENT_DATA';
 export const INSUFFICIENT_FUNDS = 'INSUFFICIENT_FUNDS';
 export const CONDITIONS_MET = 'CONDITIONS_MET';
 export const RESET_CONDITIONS_MET = 'RESET_CONDITIONS_MET';
+export const GLOBAL_SCOPE = 'GLOBAL_SCOPE';
 
 export const TEXT_SECTION_SEPARATOR = '\n\n------------------------------------------------------\n\n';
 export const MS_PER_SECOND = 1000;
@@ -38,7 +39,7 @@ export enum NotificationChannelType {
   WEB_SOCKET = 'ws',
 }
 
-export enum Instruction {
+export enum StrategyInstruction {
   SHOULD_EXIT = 'Should exit',
   SHOULD_CONTINUE = 'Should continue',
 }
@@ -75,11 +76,19 @@ export enum ExchangeCode {
   GMNI = 'GMNI',
 }
 
-export enum Action {
+export enum Strategy {
+  TRAIL_BULL = 'TRAIL_BULL',
+  TRAIL_BULL_CONSERVATIVE = 'TRAIL_BULL_CONSERVATIVE',
+  TRAIL_BEAR = 'TRAIL_BEAR',
+}
+
+export enum BotAction {
   PING = 'PING',
   LOG = 'LOG',
-  ENTER = 'ENTER',
-  EXIT = 'EXIT',
+  ENTER_TRADE = 'ENTER_TRADE',
+  ENTER_STRATEGY = 'ENTER_STRATEGY',
+  EXIT_TRADE = 'EXIT_TRADE',
+  EXIT_STRATEGY = 'EXIT_STRATEGY',
   SLEEP = 'SLEEP',
   INIT = 'INIT'
 }
