@@ -85,7 +85,9 @@ export enum Strategy {
 export enum BotAction {
   PING = 'PING',
   LOG = 'LOG',
+  /** entering a trade will also enter a strategy */
   ENTER_TRADE = 'ENTER_TRADE',
+  /** e.g. entering a strategy without buying/selling */
   ENTER_STRATEGY = 'ENTER_STRATEGY',
   EXIT_TRADE = 'EXIT_TRADE',
   EXIT_STRATEGY = 'EXIT_STRATEGY',
